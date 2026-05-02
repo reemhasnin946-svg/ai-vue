@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# 🌿 AI-Vue: 沉浸式心理健康与情绪陪伴助手
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📖 项目简介
+本项目是一个基于 Vue.js 构建的 AI 心理健康与情绪陪伴助手前端。通过对接强推理大模型，结合多模态交互界面，为用户提供一个安全、私密、具备长程记忆的“心理树洞”。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+本项目核心旨在解决现代人即时情绪疏导的痛点，通过低延迟的流式传输（Streaming）和优雅的 UI 交互，还原真实的心理辅导体验。
+
+## ✨ 核心特性
+*   **🧠 深度共情对话流**：前端深度适配大模型的长上下文（Long-Context）输出，支持多轮复杂会话的流畅渲染。
+*   **🛡️ 安全护栏与拦截**：内置敏感词与极端情绪的前置过滤机制，UI 层支持在识别到风险时自动高亮并弹出危机干预热线。
+*   **⚡ 极速响应体验**：采用 WebSocket/SSE 协议与后端 Agent 架构进行通信，确保打字机效果的丝滑呈现。
+*   **📊 情绪数据可视化**：(规划中) 支持将用户的历史情绪波动转化为图表，配合大模型的向量记忆进行跨周期辅导。
+
+## 🛠️ 技术栈
+*   **前端框架**: Vue 3 + Composition API
+*   **状态管理**: Pinia / Vuex
+*   **大模型对接**: 深度集成主流大模型 API（如 DeepSeek、GLM 等），支持复杂 Prompt 注入与多 Agent 协同接口。
+
+> **⚠️ 免责声明**
+> 本项目及接入的 AI 服务仅用于情绪疏导与技术探索，绝不替代任何专业的心理评估、医疗诊断或精神科治疗。
